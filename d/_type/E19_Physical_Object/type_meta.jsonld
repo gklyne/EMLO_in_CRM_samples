@@ -1,0 +1,35 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E19_Physical_Object",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E19_Physical_Object",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E18_Physical_Thing"
+    },
+    {
+      "@id": "crm:E70_Thing"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E18_Physical_Thing",
+  "annal:type_view": "_view/E18_Physical_Thing",
+  "annal:uri": "crm:E19_Physical_Object",
+  "rdfs:comment": "# E19 Physical Object\r\n\r\nThis class comprises items of a material nature that are units for documentation and have physical boundaries that separate them completely in an objective way from other objects. \r\n\r\nThe class also includes all aggregates of objects made for functional purposes of whatever kind, independent of physical coherence, such as a set of chessmen. Typically, instances of E19 Physical Object can be moved (if not too heavy). \r\n\r\nIn some contexts, such objects, except for aggregates, are also called \"bona fide objects\" (Smith & Varzi, 2000, pp.401-420), i.e. naturally defined objects. \r\n\r\nThe decision as to what is documented as a complete item, rather than by its parts or components, may be a purely administrative decision or may be a result of the order in which the item was acquired. \r\n\r\n## Examples: \r\n\r\n- John Smith \r\n- Aphrodite of Milos \r\n- the Palace of Knossos \r\n- the Cullinan diamond \r\n- Apollo 13 at the time of launch\r\n",
+  "rdfs:label": "E19 Physical Object"
+}

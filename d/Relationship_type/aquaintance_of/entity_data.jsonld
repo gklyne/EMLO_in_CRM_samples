@@ -1,0 +1,28 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Relationship_type/aquaintance_of",
+  "@type": [
+    "emlo:Relationship_type",
+    "crm:E28_Conceptual_Object",
+    "crm:E71_Man-Made_Thing",
+    "crm:E70_Thing",
+    "crm:E77_Persistent_Item",
+    "crm:E1_CRM_Entity",
+    "crm:E55_Type",
+    "annal:EntityData"
+  ],
+  "annal:id": "aquaintance_of",
+  "annal:type": "emlo:Relationship_type",
+  "annal:type_id": "Relationship_type",
+  "crm:P127_has_broader_term": [],
+  "crm:P127i_has_narrower_term": [],
+  "rdfs:comment": "\"was an acquaintance of\"",
+  "rdfs:domain": "_type/E39_Actor",
+  "rdfs:label": "Aquaintance of",
+  "rdfs:range": "_type/E39_Actor"
+}

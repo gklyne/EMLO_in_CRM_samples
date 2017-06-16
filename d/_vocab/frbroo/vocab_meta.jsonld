@@ -1,0 +1,19 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_vocab/frbroo",
+  "@type": [
+    "annal:Vocabulary"
+  ],
+  "annal:id": "frbroo",
+  "annal:type": "annal:Vocabulary",
+  "annal:type_id": "_vocab",
+  "annal:uri": "http://erlangen-crm.org/efrbroo/",
+  "rdfs:comment": "# CIDOC FRBRoo namespace\r\n\r\nNamespace of terms defined by the Erlangen interpretation of CIDOC FRBRoo ontology.\r\n",
+  "rdfs:label": "CIDOC FRBRoo namespace",
+  "rdfs:seeAlso": []
+}

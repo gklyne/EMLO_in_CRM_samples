@@ -1,0 +1,53 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Letter",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Letter",
+  "annal:supertype_uri": [
+    {
+      "@id": "frbroo:F1_Work"
+    },
+    {
+      "@id": "frbroo:F2_Expression"
+    },
+    {
+      "@id": "crm:E73_Information_Object"
+    },
+    {
+      "@id": "crm:E90_Symbolic_Object"
+    },
+    {
+      "@id": "crm:E89_Propositional_Object"
+    },
+    {
+      "@id": "crm:E28_Conceptual_Object"
+    },
+    {
+      "@id": "crm:E71_Man-Made_Thing"
+    },
+    {
+      "@id": "crm:E70_Thing"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Letter",
+  "annal:type_view": "_view/Letter",
+  "annal:uri": "emlo:Letter",
+  "rdfs:comment": "# Letter\r\n\r\nDescribes a letter from the EMLO dataset.\r\n\r\nDeclared as a subtype of both [F1_Work]($BASE:_type/F1_Work) and [F2_Expression]($BASE:_type/F2_Expression).  This might turn out to be an ontological over-commitment, in which case treat as an F2_Expression",
+  "rdfs:label": "Letter"
+}

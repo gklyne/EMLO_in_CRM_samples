@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/Date_end",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "emlo:Letter",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12;medium:6,6",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "",
+  "annal:field_render_type": "_enum_render_type/Text",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "annal:Text",
+  "annal:id": "Date_end",
+  "annal:placeholder": "(End date of period when letter was written)",
+  "annal:property_uri": "emlo:date_end",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "End date of period when letter was written, as YYYY-MM-DD.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# End date\r\n\r\nEnd date of period when letter was written, expressed as ISO 8601 format (yyyy-mm-dd).\r\n\r\nBlank in the common case that the letter was written in a single day.",
+  "rdfs:label": "End date"
+}

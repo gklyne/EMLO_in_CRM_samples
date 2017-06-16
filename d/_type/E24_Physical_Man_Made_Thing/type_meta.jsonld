@@ -1,0 +1,35 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E24_Physical_Man_Made_Thing",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E24_Physical_Man_Made_Thing",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E18_Physical_Thing"
+    },
+    {
+      "@id": "crm:E70_Thing"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E18_Physical_Thing",
+  "annal:type_view": "_view/E18_Physical_Thing",
+  "annal:uri": "crm:E24_Physical_Man-Made_Thing",
+  "rdfs:comment": "# E24 Physical Man-Made Thing\r\n\r\nThis class comprises all persistent physical items that are purposely created by human activity.\r\n\r\nThis class comprises man-made objects, such as a swords, and man-made features, such as rock art. No assumptions are made as to the extent of modification required to justify regarding an object as man-made. For example, a \"cup and ring\" carving on bedrock is regarded as instance of E24 Physical Man-Made Thing.\r\n\r\n## Examples:\r\n\r\n- the Forth Railway Bridge (E22)\r\n- the Channel Tunnel (E25)\r\n- the Historical Collection of the Museum Benaki in Athens (E78)\r\n",
+  "rdfs:label": "E24 Physical Man-Made Thing"
+}

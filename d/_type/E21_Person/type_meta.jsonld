@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E21_Person",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E21_Person",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E39_Actor"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E21_Person",
+  "annal:type_view": "_view/E21_Person",
+  "annal:uri": "crm:E21_Person",
+  "rdfs:comment": "# E21 Person\r\n\r\nThis class comprises real persons who live or are assumed to have lived. \r\n\r\nLegendary figures that may have existed, such as Ulysses and King Arthur, fall into this class if the documentation refers to them as historical figures. In cases where doubt exists as to whether several persons are in fact identical, multiple instances can be created and linked to indicate their relationship. The CRM does not propose a specific form to support reasoning about possible identity. \r\n\r\n## Examples: \r\n\r\n- Tut-Ankh-Amun \r\n- Nelson Mandela\r\n",
+  "rdfs:label": "E21 Person"
+}

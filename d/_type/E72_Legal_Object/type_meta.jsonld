@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E72_Legal_Object",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E72_Legal_Object",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E70_Thing"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E70_Thing",
+  "annal:type_view": "_view/E70_Thing",
+  "annal:uri": "crm:E72_Legal_Object",
+  "rdfs:comment": "# E72 Legal Object\r\n\r\nThis class comprises those material or immaterial items to which instances of E30 Right, such as the right of ownership or use, can be applied. This is true for all E18 Physical Thing. \r\n\r\nIn the case of instances of E28 Conceptual Object, however, the identity of the E28 Conceptual Object or the method of its use may be too ambiguous to reliably establish instances of E30 Right, as in the case of taxa and inspirations. Ownership of corporations is currently regarded as out of scope of the CRM. \r\n\r\n## Examples: \r\n\r\n- the Cullinan diamond (E19) \r\n- definition of the CIDOC Conceptual Reference Model Version 2.1 (E73).\r\n",
+  "rdfs:label": "E72 Legal Object"
+}

@@ -1,0 +1,36 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/Letter",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "_type/Letter",
+  "annal:default_view": "_view/Letter",
+  "annal:display_type": "List",
+  "annal:id": "Letter",
+  "annal:list_entity_selector": "'emlo:Letter' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "_field/Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_type",
+      "annal:field_placement": "small:3,3"
+    },
+    {
+      "annal:field_id": "_field/Entity_label",
+      "annal:field_placement": "small:6,6"
+    }
+  ],
+  "annal:record_type": "emlo:Letter",
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "# Letter list\n\nList entities of type Letter",
+  "rdfs:label": "Letter list"
+}

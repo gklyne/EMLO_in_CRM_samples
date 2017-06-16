@@ -1,0 +1,44 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E84_Information_Carrier",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E84_Information_Carrier",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E22_Man-Made_Object"
+    },
+    {
+      "@id": "crm:E24_Physical_Man-Made_Thing"
+    },
+    {
+      "@id": "crm:E19_Physical_Object"
+    },
+    {
+      "@id": "crm:E18_Physical_Thing"
+    },
+    {
+      "@id": "crm:E70_Thing"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E18_Physical_Thing",
+  "annal:type_view": "_view/E18_Physical_Thing",
+  "annal:uri": "crm:E84_Information_Carrier",
+  "rdfs:comment": "# E84 Information Carrier\r\n\r\nThis class comprises all instances of E22 Man-Made Object that are explicitly designed to act as persistent physical carriers for instances of E73 Information Object.\r\n\r\nThis allows a relationship to be asserted between an E19 Physical Object and its immaterial information contents. An E84 Information Carrier may or may not contain information, e.g., a diskette. Note that any E18 Physical Thing may carry information, such as an E34 Inscription. However, unless it was specifically designed for this purpose, it is not an Information Carrier. Therefore the property P128 carries (is carried by) applies to E18 Physical Thing in general.\r\n\r\n## Examples:\r\n\r\n- the Rosetta Stone\r\n- my paperpack copy of Crime & Punishment\r\n- the computer disk at ICS-FORTH that stores the canonical Definition of the CIDOC CRM\r\n",
+  "rdfs:label": "E84 Information Carrier"
+}

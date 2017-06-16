@@ -1,0 +1,35 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/F3_Manifestation_Product_Type",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "F3_Manifestation_Product_Type",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E72_Legal_Object"
+    },
+    {
+      "@id": "crm:E70_Thing"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E70_Thing",
+  "annal:type_view": "_view/E70_Thing",
+  "annal:uri": "frbroo:F3_Manifestation_Product_Type",
+  "rdfs:comment": "# F3 Manifestation Product Type\r\n\r\nThis class comprises the definitions of publication products. \r\n\r\nAn instance of F3 Manifestation Product Type is the \u201cspecies\u201d, and all copies of a given object are \u201cspecimens\u201d of it. \r\n\r\nAn instance of F3 Manifestation Product Type defines all of the features or traits that instances of F5 Item normally display in order that they may be recognised as copies of a particular publication. However, due to production problems or subsequent events, one or more instances of F5 Item may not exhibit all these features or traits; yet such instances still retain their relationship to the same instance of F3 Manifestation Product Type. \r\n\r\nThe features that characterise a given instance of F3 Manifestation Product Type include: one instance of F24 Publication Expression, containing one or more than one instance of F2 Expression, reflecting the authors\u2019 content of the manifestation and all additional input by the publisher; and the appropriate types of physical features for that form of the object. For example, hardcover and paperback are two distinct publications (i.e. two distinct instances of F3 Manifestation Product Type) even though authorial and editorial content are otherwise identical in both publications. \r\n\r\nThe activity of cataloguing aims at the most accurate listing of features or traits of an instance of F3 Manifestation Product Type that are sufficient to distinguish it from another instance of F3 Manifestation Product Type. In this sense, it may be said that a typical bibliographic record for a publication (not a manuscript) reflects the notion of F3 Manifestation Product Type. \r\n\r\n## Examples: \r\n\r\n- The publication product containing the text entitled \u2018Harmonie universelle\u2019 (authored by the person named \u2018Marin Mersenne\u2019), issued in 1636 in Paris by the publisher named \u2018S\u00e9bastien Cramoisy\u2019 \r\n- The publication product containing a modern reprint of Marin Mersenne\u2019s \u2018Harmonie universelle\u2019, issued in 1986 in Paris by the publisher named \u2018Les \u00e9ditions du CNRS\u2019, and identified by ISBN \u20182-222-00835-2\u2019 \r\n- The publication product containing the third edition of the combination of texts and graphics titled \u2018Codex Manesse: die Miniaturen der gro\u00dfen Heidelberger Liederhandschrift, herausgegeben und erl\u00e4utert von Ingo F. Walther unter Mitarbeit von Gisela Siebert\u2019, issued by the publisher named \u2018Insel-Verlag\u2019 in 1988 \r\n- The publication product containing the cartographic resource titled \u2018Ordnance Survey Explorer Map 213, Aberystwyth & Cwm Rheidol\u2019, issued in May 2005 by the publisher named \u2018Ordnance Survey\u2019 and identified by ISBN \u20180-319-23640-4\u2019 (folded), 1:25,000 scale \r\n- The publication product containing the recordings of musical works performed by the person named \u2018Florence Foster Jenkins\u2019 gathered under the title \u2018The Glory (????) of the human voice\u2019, identified by label and label number \u2018RCA Victor Gold Seal GD61175\u2019 (Note: the four question marks within parentheses belong to the title itself) \r\n",
+  "rdfs:label": "F3 Manifestation Product Type"
+}

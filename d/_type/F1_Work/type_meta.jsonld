@@ -1,0 +1,41 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/F1_Work",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "F1_Work",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E89_Propositional_Object"
+    },
+    {
+      "@id": "crm:E28_Conceptual_Object"
+    },
+    {
+      "@id": "crm:E71_Man-Made_Thing"
+    },
+    {
+      "@id": "crm:E70_Thing"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E28_Conceptual_Object",
+  "annal:type_view": "_view/E28_Conceptual_Object",
+  "annal:uri": "frbroo:F1_Work",
+  "rdfs:comment": "# F1 Work\r\n\r\nThis class comprises the sums of concepts which appear in the course of the coherent evolution of an original idea into one or more expressions that are dominated by the original idea. \r\n\r\nThe substance of Work is concepts. A Work may be elaborated by one or more Actors simultaneously or over time. \r\n\r\nA Work may have members that constitute components of the overall concept or that are alternatives to other members of the work. Members of a work may or may not represent the concept of the Work as a whole; for instance a translation reinterprets the whole, a volume of a trilogy represents a part of the concept. \r\n\r\nA Work can be either individual or complex. If it is individual its concept is completely realised in a single F22 Self-Contained Expression. If it is complex its concept is embedded in an F15 Complex Work. An F15 Complex Work consists of members that are either F15 Complex Works themselves or F14 Individual Works. \r\n\r\nThe member relationship of Work is based on the members respecting the same concept, and should not be confused with the structural parts of an expression, that might be taken from other work(s). \r\n\r\nA Work is the product of an intellectual process of one or more persons, yet only indirect evidence about it is at our hands. This can be contextual information such as the existence of an order for a work, reflections of the creators themselves that are documented somewhere, and finally the expressions of the work created. As ideas normally take shape during discussion, elaboration and implementation, it is not reasonable to assume that a work starts with a complete concept. Moreover, it can be very difficult or impossible to define the whole of the concept of a work at some given time. The only objective evidence for such a notion can be based on a stage of expressions at a given time. In this sense, self-contained expressions serve as a kind of \u201csnap-shots\u201d of a work. \r\n\r\nA Work may aggregate expressions of other works into a new expression. For instance, an anthology of poems is regarded as a work in its own right that makes use of expressions of the individual poems that have been selected and ordered as part of an intellectual process. This does not make the contents of the aggregated expressions part of this work, but only parts of the resulting expression. \r\n\r\n## Examples: \r\n\r\n- Abstract content of Giovanni Battista Piranesi\u2019s \u2018Carcere XVI: the pier with chains: 1st state\u2019 (F14) \r\n- \u2018La Porte de l\u2019Enfer\u2019 by Auguste Rodin conceived between 1880 and 1917 (F15) \r\n- \u2018Hamlet\u2019 by William Shakespeare (F15)\r\n",
+  "rdfs:label": "F1 Work"
+}

@@ -1,0 +1,38 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E90_Symbolic_Object",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E90_Symbolic_Object",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E28_Conceptual_Object"
+    },
+    {
+      "@id": "crm:E71_Man-Made_Thing"
+    },
+    {
+      "@id": "crm:E70_Thing"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E28_Conceptual_Object",
+  "annal:type_view": "_view/E28_Conceptual_Object",
+  "annal:uri": "crm:E90_Symbolic_Object",
+  "rdfs:comment": "# E90 Symbolic Object\r\n\r\nThis class comprises identifiable symbols and any aggregation of symbols, such as characters, identifiers, traffic signs, emblems, texts, data sets, images, musical scores, multimedia objects, computer program code or mathematical formulae that have an objectively recognizable structure and that are documented as single units. It includes sets of signs of any nature, which may serve to designate something, or to communicate some propositional content. \r\n\r\nAn instance of E90 Symbolic Object does not depend on a specific physical carrier, which can include human memory, and it can exist on one or more carriers simultaneously. An instance of E90 Symbolic Object may or may not have a specific meaning, for example an arbitrary character string. \r\n\r\n## Examples: \r\n\r\n- 'ecognizabl' - The \"no-smoking\" sign (E36) \r\n- \"BM000038850.JPG\" (E75) - image BM000038850.JPG from the Clayton Herbarium in London (E38) \r\n- The distribution of form, tone and colour found on Leonardo da Vinci's painting named \"Mona Lisa\" (E38) \r\n- The Italian text of Dante's \"Divina Commedia\" as found in the authoritative critical edition La Commedia secondo l'antica vulgata a cura di Giorgio Petrocchi, Milano: Mondadori, 1966-67 (= Le Opere di Dante Alighieri, Edizione Nazionale a cura della Societ\u00e0 Dantesca Italiana, VII, 1-4) (E33)",
+  "rdfs:label": "E90 Symbolic Object"
+}

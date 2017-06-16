@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E71_Man_Made_Thing",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E71_Man_Made_Thing",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E70_Thing"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E70_Thing",
+  "annal:type_view": "_view/E70_Thing",
+  "annal:uri": "crm:E71_Man-Made_Thing",
+  "rdfs:comment": "# E71 Man-Made Thing\r\n\r\nThis class comprises discrete, identifiable man-made items that are documented as single units.\r\n\r\nThese items are either intellectual products or man-made physical things, and are characterized by relative stability. They may for instance have a solid physical form, an electronic encoding, or they may be logical concepts or structures.\r\n\r\n## Examples:\r\n\r\n- Beethoven's 5th Symphony (E73)\r\n- Michelangelo's David\r\n- Einstein's Theory of General Relativity (E73)\r\n- the taxon 'Fringilla coelebs Linnaeus, 1758' (E55)\r\n",
+  "rdfs:label": "E71 Man-Made Thing"
+}

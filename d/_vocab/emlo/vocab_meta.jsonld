@@ -1,0 +1,23 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_vocab/emlo",
+  "@type": [
+    "annal:Vocabulary"
+  ],
+  "annal:id": "emlo",
+  "annal:type": "annal:Vocabulary",
+  "annal:type_id": "_vocab",
+  "annal:uri": "http://id.annalist.net/emlo/",
+  "rdfs:comment": "# EMLO namespace\r\n\r\nNamespace of terms defined EMLO data to be presented as linked data\r\n",
+  "rdfs:label": "EMLO namespace",
+  "rdfs:seeAlso": [
+    {
+      "@id": "http://emlo.bodleian.ox.ac.uk/"
+    }
+  ]
+}

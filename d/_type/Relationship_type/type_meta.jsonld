@@ -1,0 +1,42 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Relationship_type",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Relationship_type",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E28_Conceptual_Object"
+    },
+    {
+      "@id": "crm:E71_Man-Made_Thing"
+    },
+    {
+      "@id": "crm:E70_Thing"
+    },
+    {
+      "@id": "crm:E77_Persistent_Item"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    },
+    {
+      "@id": "crm:E55_Type"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/Relationship_type",
+  "annal:type_view": "_view/Relationship_type",
+  "annal:uri": "emlo:Relationship_type",
+  "rdfs:comment": "Relationship type",
+  "rdfs:label": "Relationship type",
+  "rdfs:seeAlso": []
+}
