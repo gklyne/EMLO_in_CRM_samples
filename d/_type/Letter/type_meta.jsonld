@@ -48,6 +48,6 @@
   "annal:type_list": "_list/Letter",
   "annal:type_view": "_view/Letter",
   "annal:uri": "emlo:Letter",
-  "rdfs:comment": "# Letter\r\n\r\nDescribes a letter from the EMLO dataset.\r\n\r\nDeclared as a subtype of both [F1_Work]($BASE:_type/F1_Work) and [F2_Expression]($BASE:_type/F2_Expression).  This might turn out to be an ontological over-commitment, in which case treat as an F2_Expression",
+  "rdfs:comment": "# Letter\r\n\r\nDescribes a letter from the EMLO dataset.\r\n\r\nDeclared as a subtype of both [F1_Work]($BASE:_type/F1_Work) and [F2_Expression]($BASE:_type/F2_Expression).  This might turn out to be an ontological over-commitment, in which case treat as an F2_Expression.",
   "rdfs:label": "Letter"
 }

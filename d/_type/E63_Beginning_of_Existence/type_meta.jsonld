@@ -1,0 +1,35 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E63_Beginning_of_Existence",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E63_Beginning_of_Existence",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E5_Event"
+    },
+    {
+      "@id": "crm:E4_Period"
+    },
+    {
+      "@id": "crm:E2_Temporal_Entity"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E5_Event",
+  "annal:type_view": "_view/E5_Event",
+  "annal:uri": "crm:E63_Beginning_of_Existence",
+  "rdfs:comment": "# E63 Beginning of Existence\r\n\r\nThis class comprises events that bring into existence any E77 Persistent Item.\r\n\r\nIt may be used for temporal reasoning about things (intellectual products, physical items, groups of people, living beings) beginning to exist; it serves as a hook for determination of a terminus post quem and ante quem.\r\n\r\n## Examples:\r\n\r\n- the birth of my child\r\n- the birth of Snoopy, my dog\r\n- the calving of the iceberg that sank the Titanic\r\n- the construction of the Eiffel Tower\r\n",
+  "rdfs:label": "E63 Beginning of Existence"
+}

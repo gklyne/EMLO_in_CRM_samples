@@ -1,0 +1,32 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/transmitted_by",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_entity_type": "emlo:Letter",
+  "annal:field_fields": [],
+  "annal:field_placement": "small:0,12;medium:0,6",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/Transmission",
+  "annal:field_render_type": "_enum_render_type/Enum_optional",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "emlo:Transmission",
+  "annal:id": "transmitted_by",
+  "annal:placeholder": "(activity that transmits letter to recipient)",
+  "annal:property_uri": "emlo:transmitted_by",
+  "annal:repeat_label_add": "Add",
+  "annal:repeat_label_delete": "Remove",
+  "annal:tooltip": "Reference to the activity of transmitting (the content of) a letter to its recipient.",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# Transmission of letter\r\n\r\nThis field refers to the activity of transmitting (the content of) a letter to its recipient.\r\n\r\n\r\n## Candidate CRM properties\r\n\r\nA new property URI has been minted for this field, as the existing CRM properties were either rather vague or over-committed.\r\n\r\nNote that a letter, as modeled, is a conceptual entity ([F1_Work]($BASE:_type/F1_Work) and [F2_Expression]($BASE:_type/F2_Expression)) rather than a physical object.\r\n\r\nProperties considered were:\r\n\r\n- P12_occurred_in_the_presence_of - links  E5_Event to E77_Persistent_Item (letter)\r\n- P16_used_specific_object (subproperty of P12) - links E7_Activity to E70_Thing: this seems to be the closest CRM property, and the emlo:transmitted_by property used here should be considered a subproperty of this.\r\n- P25_moved (subproperty of P16) - refers specifically to change of physical location of physical object\r\n- P30_transferred_custody_of - links E10_Transfer_of_Custody to E18_Physical_Thing -  refers specifically to a physical object\r\n\r\n\r\n\r\n\r\n\r\n",
+  "rdfs:label": "Transmitted"
+}

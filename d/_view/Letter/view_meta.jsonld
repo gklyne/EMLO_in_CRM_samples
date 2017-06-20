@@ -36,32 +36,12 @@
       "annal:property_uri": ""
     },
     {
-      "annal:field_id": "_field/Date",
-      "annal:field_placement": "small:0,12;medium:0,6",
-      "annal:property_uri": ""
-    },
-    {
       "annal:field_id": "_field/Date_inscribed",
-      "annal:field_placement": "small:0,12;medium:6,6",
-      "annal:property_uri": ""
-    },
-    {
-      "annal:field_id": "_field/Date_end",
-      "annal:field_placement": "small:0,12;medium:0,6",
-      "annal:property_uri": ""
-    },
-    {
-      "annal:field_id": "_field/Author",
       "annal:field_placement": "small:0,12;medium:0,6",
       "annal:property_uri": ""
     },
     {
       "annal:field_id": "_field/Author_inscribed",
-      "annal:field_placement": "small:0,12;medium:6,6",
-      "annal:property_uri": ""
-    },
-    {
-      "annal:field_id": "_field/Recipient",
       "annal:field_placement": "small:0,12;medium:0,6",
       "annal:property_uri": ""
     },
@@ -71,22 +51,22 @@
       "annal:property_uri": ""
     },
     {
-      "annal:field_id": "_field/Origin",
-      "annal:field_placement": "small:0,12;medium:0,6",
-      "annal:property_uri": ""
-    },
-    {
       "annal:field_id": "_field/Origin_inscribed",
-      "annal:field_placement": "small:0,12;medium:6,6",
-      "annal:property_uri": ""
-    },
-    {
-      "annal:field_id": "_field/Destination",
       "annal:field_placement": "small:0,12;medium:0,6",
       "annal:property_uri": ""
     },
     {
       "annal:field_id": "_field/Destination_inscribed",
+      "annal:field_placement": "small:0,12;medium:6,6",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/creation",
+      "annal:field_placement": "small:0,12;medium:0,6",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/transmitted_by",
       "annal:field_placement": "small:0,12;medium:6,6",
       "annal:property_uri": ""
     },

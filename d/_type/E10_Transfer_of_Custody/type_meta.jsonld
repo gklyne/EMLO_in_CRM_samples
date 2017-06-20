@@ -1,0 +1,38 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E10_Transfer_of_Custody",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E10_Transfer_of_Custody",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E7_Activity"
+    },
+    {
+      "@id": "crm:E5_Event"
+    },
+    {
+      "@id": "crm:E4_Period"
+    },
+    {
+      "@id": "crm:E2_Temporal_Entity"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E7_Activity",
+  "annal:type_view": "_view/E7_Activity",
+  "annal:uri": "crm:E10_Transfer_of_Custody",
+  "rdfs:comment": "# E10 Transfer of Custody\r\n\r\nThis class comprises transfers of physical custody of objects between instances of E39 Actor.\r\n\r\nThe recording of the donor and/or recipient is optional. It is possible that in an instance of E10 Transfer of Custody there is either no donor or no recipient. Depending on the circumstances it may describe:\r\n\r\n1. the beginning of custody\r\n2. the end of custody\r\n3. the transfer of custody\r\n4. the receipt of custody from an unknown source\r\n5. the declared loss of an object\r\n\r\nThe distinction between the legal responsibility for custody and the actual physical possession of the object should be expressed using the property P2 has type (is type of). A specific case of transfer of custody is theft.\r\n\r\nThe interpretation of the museum notion of \"accession\" differs between institutions. The CRM therefore models legal ownership and physical custody separately. Institutions will then model their specific notions of accession and deaccession as combinations of these.\r\n\r\n## Examples:\r\n\r\n- the delivery of the paintings by Secure Deliveries Inc. to the National Gallery\r\n- the return of Picasso's \"Guernica\" to Madrid's Prado in 1981\r\n",
+  "rdfs:label": "E10 Transfer of Custody"
+}

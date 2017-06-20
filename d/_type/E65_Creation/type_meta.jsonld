@@ -1,0 +1,41 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/E65_Creation",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "E65_Creation",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E63_Beginning_of_Existence"
+    },
+    {
+      "@id": "crm:E7_Activity"
+    },
+    {
+      "@id": "crm:E5_Event"
+    },
+    {
+      "@id": "crm:E4_Period"
+    },
+    {
+      "@id": "crm:E2_Temporal_Entity"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E7_Activity",
+  "annal:type_view": "_view/E7_Activity",
+  "annal:uri": "crm:E65_Creation",
+  "rdfs:comment": "# E65 Creation\r\n\r\nThis class comprises events that result in the creation of conceptual items or immaterial products, such as legends, poems, texts, music, images, movies, laws, types etc.\r\n\r\n## Examples:\r\n\r\n- the framing of the U.S. Constitution\r\n- the drafting of U.N. resolution 1441\r\n",
+  "rdfs:label": "E65 Creation"
+}

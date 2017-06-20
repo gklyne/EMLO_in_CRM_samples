@@ -1,0 +1,38 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Transmission",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:field_aliases": [],
+  "annal:id": "Transmission",
+  "annal:supertype_uri": [
+    {
+      "@id": "crm:E7_Activity"
+    },
+    {
+      "@id": "crm:E5_Event"
+    },
+    {
+      "@id": "crm:E4_Period"
+    },
+    {
+      "@id": "crm:E2_Temporal_Entity"
+    },
+    {
+      "@id": "crm:E1_CRM_Entity"
+    }
+  ],
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "_list/E7_Activity",
+  "annal:type_view": "_view/E7_Activity",
+  "annal:uri": "emlo:Transmission",
+  "rdfs:comment": "# Transmission of letter\r\n\r\nThis class represents the activity of transmitting the content of a letter to its recipient.\r\n\r\nNote that a letter, as modeled, is a conceptual entity ([F1_Work]($BASE:_type/F1_Work) and [F2_Expression]($BASE:_type/F2_Expression)) rather than a physical object.  Thus, the CRM class [E10_Transfer_of_Custody]($BASE:_type/E10_Transfer_of_Custody) would not be applicable here.\r\n",
+  "rdfs:label": "Transmission of letter"
+}
