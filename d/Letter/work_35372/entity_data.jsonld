@@ -24,16 +24,22 @@
   "annal:missing_field": "",
   "annal:type": "emlo:Letter",
   "annal:type_id": "Letter",
+  "coll:included_image_r": [
+    {
+      "coll:included_image_m": "Linked_image/image_00000026"
+    }
+  ],
   "crm:P1_is_identified_by_r": [],
   "crm:P2_has_type": [],
   "crm:P3_has_note_r": [],
   "crm:P70i_is_documented_in_r": [],
-  "crm:P94i_was_created_by": "",
+  "crm:P94i_was_created_by": "E65_Creation/creation_35372",
   "emlo:author_inscribed": "Newton, Sir Isaac, 1642-1727 ",
   "emlo:date_inscribed": "Jan. 4. 1697/8",
   "emlo:destination_inscribed": "",
   "emlo:origin_inscribed": "London",
   "emlo:recipient_inscribed": "Gregory, Dr. Dav. ",
-  "rdfs:comment": "# 4 Jan 1698: Newton, Isaac (Sir), 1642-1727 (London, England) to Gregory, David, 1659-1708\r\n\r\n\r\n## Abstract\r\n\r\nEnclosing a warrant to the Mayor of Oxford or some J.P. to grant out another against Robert Wood and commit him to Oxford gaol till I can send for him hither by Habeas Corpus. He hears that Wood has a brother in the University skilled in law who is likely to contend for his brother that the crime is not high treason. But I have consulted the Lord Chief Justice Holt and other Justices and we all conclude it High Treason without dispute. But let Wood's brother dispute it with us, if he disagrees. The charge to be of high treason to prevent his bailing. He reports a great fire this evening in Whitehall, running along the river on the south side of the Duke of Shrewsbury's office.\r\n\r\n## Language\r\n\r\nEnglish\r\n\r\n## See also:\r\n\r\n* http://emlo.bodleian.ox.ac.uk/profile/work/2aac1eaa-3d1e-46b4-9a81-500f5bca3666\r\n",
-  "rdfs:label": "4 Jan 1698: Newton, Isaac (Sir), 1642-1727 (London, England) to Gregory, David, 1659-1708"
+  "emlo:transmitted_by": "Transmission/transmission_35372",
+  "rdfs:comment": "# 4 Jan 1698: Newton, Isaac (Sir), 1642-1727 (London, England) to Gregory, David, 1659-1708\r\n\r\n## Abstract\r\n\r\nEnclosing a warrant to the Mayor of Oxford or some J.P. to grant out another against Robert Wood and commit him to Oxford gaol till I can send for him hither by Habeas Corpus. He hears that Wood has a brother in the University skilled in law who is likely to contend for his brother that the crime is not high treason. But I have consulted the Lord Chief Justice Holt and other Justices and we all conclude it High Treason without dispute. But let Wood's brother dispute it with us, if he disagrees. The charge to be of high treason to prevent his bailing. He reports a great fire this evening in Whitehall, running along the river on the south side of the Duke of Shrewsbury's office.\r\n\r\n## Language\r\n\r\nEnglish\r\n\r\n## See also:\r\n\r\n* [EMLO entry for this letter](http://emlo.bodleian.ox.ac.uk/profile/work/2aac1eaa-3d1e-46b4-9a81-500f5bca3666)\r\n",
+  "rdfs:label": "4 Jan 1698: Newton, Isaac (Sir), to Gregory, David"
 }

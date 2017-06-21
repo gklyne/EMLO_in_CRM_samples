@@ -1,0 +1,42 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "E65_Creation/creation_35372",
+  "@type": [
+    "crm:E65_Creation",
+    "crm:E63_Beginning_of_Existence",
+    "crm:E7_Activity",
+    "crm:E5_Event",
+    "crm:E4_Period",
+    "crm:E2_Temporal_Entity",
+    "crm:E1_CRM_Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "creation_35372",
+  "annal:type": "crm:E65_Creation",
+  "annal:type_id": "E65_Creation",
+  "crm:P11_had_participant": [],
+  "crm:P12_occurred_in_the_presence_of": [
+    {
+      "@id": "Letter/work_35372"
+    }
+  ],
+  "crm:P14_carried_out_by": [
+    {
+      "@id": "E21_Person/person_15257"
+    }
+  ],
+  "crm:P1_is_identified_by_r": [],
+  "crm:P2_has_type": [],
+  "crm:P3_has_note_r": [],
+  "crm:P4_has_time-span": "E52_Time_Span/16980104",
+  "crm:P70i_is_documented_in_r": [],
+  "crm:P71i_is_listed_in_r": [],
+  "crm:P7_took_place_at": "E53_Place/location_1606",
+  "rdfs:comment": "# 4 Jan 1698: Newton, Isaac (Sir), 1642-1727 (London, England) to Gregory, David, 1659-1708\r\n\r\n## Date of birth\r\n\r\n1642 \r\n\r\n## Date of death\r\n\r\n1727 ",
+  "rdfs:label": "4 Jan 1698: Newton, Isaac (Sir), to Gregory, David"
+}

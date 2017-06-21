@@ -1,0 +1,30 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "E39_Actor/person_9324",
+  "@type": [
+    "crm:E39_Actor",
+    "crm:E77_Persistent_Item",
+    "crm:E1_CRM_Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "person_9324",
+  "annal:type": "crm:E39_Actor",
+  "annal:type_id": "E39_Actor",
+  "crm:P11i_participated_in": [
+    {
+      "@id": "Transmission/transmission_35372"
+    }
+  ],
+  "crm:P1_is_identified_by_r": [],
+  "crm:P2_has_type": [],
+  "crm:P3_has_note_r": [],
+  "crm:P70i_is_documented_in_r": [],
+  "crm:P71i_is_listed_in_r": [],
+  "rdfs:comment": "# Gregory, David, 1659-1708\r\n\r\nSavilian professor of Astronomy, Oxford; mathematician and astronomer\r\n\r\n## Alternative names\r\n\r\nGregorie\r\n\r\n## Dates\r\n\r\n* Date of birth: 1659 \r\n* Date of death: 1708 \r\n",
+  "rdfs:label": "Gregory, David, 1659-1708"
+}

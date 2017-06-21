@@ -5,7 +5,7 @@
     },
     "../../coll_context.jsonld"
   ],
-  "@id": "_field/creation",
+  "@id": "_field/created",
   "@type": [
     "annal:Field"
   ],
@@ -19,7 +19,7 @@
   "annal:field_render_type": "_enum_render_type/Enum_optional",
   "annal:field_value_mode": "_enum_value_mode/Value_direct",
   "annal:field_value_type": "crm:E65_Creation",
-  "annal:id": "creation",
+  "annal:id": "created",
   "annal:placeholder": "(activity that created this letter)",
   "annal:property_uri": "crm:P94i_was_created_by",
   "annal:repeat_label_add": "Add",
@@ -28,5 +28,5 @@
   "annal:type": "annal:Field",
   "annal:type_id": "_field",
   "rdfs:comment": "# Creation of letter\r\n\r\nThis field refers to the activity that created a letter.\r\n\r\nIt allows a conceptual [E65 Creation]($BASE:_type/E65_Creation) activity to be linked to the letter (a [E28 Conceptual Object]($BASE:_type/E28 Conceptual Object)) created by it.\r\n\r\nIt represents the act of conceiving the intellectual content of the E28 Conceptual Object. It does not represent the act of creating the first physical carrier of the E28 Conceptual Object. As an example, this is the composition of a poem, not its commitment to paper.\r\n\r\n## Examples:\r\n\r\n- the composition of \"The Four Friends\" by A. A. Milne (E65) has created \"The Four Friends\" by A. A. Milne (E28)\r\n\r\n",
-  "rdfs:label": "Creation"
+  "rdfs:label": "Created"
 }

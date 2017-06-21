@@ -1,0 +1,41 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Transmission/transmission_35372",
+  "@type": [
+    "emlo:Transmission",
+    "crm:E7_Activity",
+    "crm:E5_Event",
+    "crm:E4_Period",
+    "crm:E2_Temporal_Entity",
+    "crm:E1_CRM_Entity",
+    "annal:EntityData"
+  ],
+  "annal:id": "transmission_35372",
+  "annal:type": "emlo:Transmission",
+  "annal:type_id": "Transmission",
+  "crm:P11_had_participant": [
+    {
+      "@id": "E39_Actor/person_9324"
+    }
+  ],
+  "crm:P12_occurred_in_the_presence_of": [
+    {
+      "@id": "Letter/work_35372"
+    }
+  ],
+  "crm:P14_carried_out_by": [],
+  "crm:P1_is_identified_by_r": [],
+  "crm:P2_has_type": [],
+  "crm:P3_has_note_r": [],
+  "crm:P4_has_time-span": "",
+  "crm:P70i_is_documented_in_r": [],
+  "crm:P71i_is_listed_in_r": [],
+  "crm:P7_took_place_at": "",
+  "rdfs:comment": "# 4 Jan 1698: Newton, Isaac (Sir), 1642-1727 (London, England) to Gregory, David, 1659-1708\r\n\r\n\r\n",
+  "rdfs:label": "4 Jan 1698: Newton, Isaac (Sir), to Gregory, David"
+}

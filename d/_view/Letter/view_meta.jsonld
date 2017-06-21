@@ -61,13 +61,18 @@
       "annal:property_uri": ""
     },
     {
-      "annal:field_id": "_field/creation",
-      "annal:field_placement": "small:0,12;medium:0,6",
+      "annal:field_id": "_field/created",
+      "annal:field_placement": "small:0,12",
       "annal:property_uri": ""
     },
     {
       "annal:field_id": "_field/transmitted_by",
-      "annal:field_placement": "small:0,12;medium:6,6",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": ""
+    },
+    {
+      "annal:field_id": "_field/Included_image_r",
+      "annal:field_placement": "small:0,12",
       "annal:property_uri": ""
     },
     {
