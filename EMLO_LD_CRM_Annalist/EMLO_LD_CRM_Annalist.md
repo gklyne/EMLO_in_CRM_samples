@@ -1,4 +1,4 @@
-# Using Annalist to create CIDOC CRM linked data for EMLO
+I# Using Annalist to create CIDOC CRM linked data for EMLO
 
 Graham Klyne <graham.klyne@oerc.ox.ac.uk>
 
@@ -16,7 +16,7 @@ This session proceeds in 3 phases:
 
 Taken together, my intent is that the session will help show how linked data and CRM can be used to capture the richness of information that is the subject of humanities studies, even if a session like this can only scratch the surface of that richness.
 
-I shall focus here on manual creation of data, but an implied possibility not explored here is that, with some modest coding effort, existing data can be converted automatically to linked data for exploration and combination with other datasets.
+(I shall focus here on manual creation of data, but an implied possibility not explored here is that, with some modest coding effort, existing data can be converted automatically to linked data for exploration and combination with other datasets.)
 
 We shall use a web browser to interact with the Annalist system.  The intent is to keep this web server running for at least a year so you can come back to update and access your data later (but we make no guarantee of continuity of access or data integrity).  Data on the server may be downloaded as JSON - hopefully, by the end of this session, you will know how to access it.  If you want a copy of the entire collection data as a zip file or Tar archive, email me and I can arrange this (later versions of Annalist software should offer this option through the web interface).
 
@@ -29,18 +29,22 @@ The Annalist philosophy is _data first_: rather than designing an ontology or sc
 
 In its current form, Annalist focuses on manually entered data.  BUT, through shared access to common data in a simple textual format, it is possible for data to me mechanically inserted into an Annalist collection.
 
-In what follows, my plan is that I'll demonstrate the operations I'm describing, but my intent is that you'll follow along and experiment for yourselves, and learn by doing.
+In what follows, I'll demonstrate the operations I'm describing, but the intent is that you'll follow along and experiment for yourselves, and learn by doing.
 
 
 ### Login to Annalist
 
-You will need a Google account for this, and knowledge of the corresponding access codes (including 2-factor authentication if used).
+You will need a Google account for this.  If you don't already have one, you can create one by following links from the "Sign in" button on Googler's front page.
 
-1.  Browse to [dhoxss.annalist.net](http://dhoxss.annalist.net/).
+1.  Browse to [dhoxss.annalist.net](http://dhoxss.annalist.net/):
+
+    <!-- <img src="images/dhoxss-annalist-home.png" alt="screenshot" width="75%"> -->
 
     ![screenshot](images/dhoxss-annalist-home.png)
 
-2.  Click on "Login"
+2.  Click on "Login", so show a page like this:
+
+    <!-- <img src="images/dhoxss-annalist-login-1.png" alt="screenshot" width="75%"> -->
 
     ![screenshot](images/dhoxss-annalist-login-1.png)
 
@@ -52,7 +56,7 @@ You will need a Google account for this, and knowledge of the corresponding acce
 
 1. Click on the "Home" button.
 
-    ![screenshot](images/dhoxss-annalist-home.png)
+    ![screenshot](images/dhoxss-annalist-home-after-login.png)
 
 2. Enter a collection name and label into the fields presented.  Preferably, use values that help to identify you as owner of this collection (e.g. prefix with your username.
 
@@ -94,11 +98,7 @@ Tell Annalist that the new collection should inherit definitions and data from t
 
     ![screenshot](images/dhoxss-annalist-EMLO_in_CRM_notes.png)
 
-    .
-
-    .
-
-    .
+    ![vertical-ellipsis](images/vertical-ellipsis.png)
 
     ![screenshot](images/dhoxss-annalist-select-EMLO_in_CRM-buttons.png)
 
@@ -221,9 +221,9 @@ A similar pattern can be followed to create a transmission activity record:
 
 5. In the Letter view, in the drop-down field in the row labelled "Transmitted", select the new transmission activity record that has just been created (e.g., "2 Jan 1672: Oldenburg, Henry, to Newton, Isaac (Sir)").
 
-The resulting saved letter view should appear something like this:
+    The resulting saved letter view should appear something like this:
 
-![screenshot](images/dhoxss-annalist-view-letter_949200-2.png)
+    ![screenshot](images/dhoxss-annalist-view-letter_949200-2.png)
 
 6. The stored JSON-LD for the various records can be viewed and downloaded by clicking on the "Data button.
 
@@ -246,15 +246,17 @@ We create definitions for describing additional aspects of a letter that are not
 
 4. For this exercise, I want to add the language description as a simple "Short text" field.  Many of the fields shown on the form can be ignored for this purpose.  Fill in or select values for `Field id`, `Render type`, `Field label`, `Help`, `Property URI`, `Position/size`, `Value type`, `Entity type`, `Placeholder`, and `Tooltip`.  Other fields may be left unchanged, so leave a resulting form something like this:
 
-![screenshot](images/dhoxss-annalist-new-field-language.png)
+    ![screenshot](images/dhoxss-annalist-new-field-language.png)
 
 5. Click "Save" and the view definition should re-appear.  For the field that appears as "(field sel)", select the newly defined value (e.g., "Language of letter") from the drop-down for this field.
 
 6. The fields are listed in the order that they appear in letter views. In this case, I'd like the language field to appear beside the field "Date as marked".  To move the the new field into this new position, select the checkboxes by every field below the "Date as marked" down to but not including the new "Language of letter field":
 
-![screenshot](images/dhoxss-annalist-edit-view-select-fields.png)
+    ![screenshot](images/dhoxss-annalist-edit-view-select-fields.png)
 
-    Then click on the "Move ⬇" button.  (This sequence is slightly counter-intuitive, but it is quicker then selecting the single field and moving it up 11 times!)
+    Then click on the "Move ⬇" button.
+    
+    (This sequence is slightly counter-intuitive, but it is quicker then selecting the single field and moving it up 11 times!)
 
 7. Select the value "6/6" for the position/size of the moved field, and then click on the "Save" button.
 
@@ -278,9 +280,9 @@ The EMLO data contains information about and references to collections in which 
     * From the list, click on the link labeled "E24_Physical_Man_Made_Thing".  A "Type definition" view is displayed.  Click on the "Define subtype" button.
     * A new type definition form is displayed: fill in values for `Type Id`, `Label`, `Comment` and `Type URI`, leaving other fields unchanged:
 
-![screenshot](images/dhoxss-annalist-new-type-E78_Collection.png)
+    ![screenshot](images/dhoxss-annalist-new-type-E78_Collection.png)
 
-(The screenshot example here shows text copied from the CIDOC CRM documentation: for the purposes of this exercise, it is not necessary to copy all this test, and the comment field could be left blank for now.)
+    (The screenshot example here shows text copied from the CIDOC CRM documentation: for the purposes of this exercise, it is not necessary to copy all this test, and the comment field could be left blank for now.)
     
 2. Create View and List for E78_Collection
 
