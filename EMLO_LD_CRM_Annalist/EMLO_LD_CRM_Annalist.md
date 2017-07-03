@@ -1,4 +1,4 @@
-I# Using Annalist to create CIDOC CRM linked data for EMLO
+# Using Annalist to create CIDOC CRM linked data for EMLO
 
 Graham Klyne <graham.klyne@oerc.ox.ac.uk>
 
@@ -233,8 +233,6 @@ A similar pattern can be followed to create a transmission activity record:
 So far,we have been working with definitions that already exist in the Annalist system we are using.  Finally, we look at how the structure of Annalist linked data can be modified by new or updated definitions.
 
 We create definitions for describing additional aspects of a letter that are not currently covered.
-
-@@ what to change?  An obvious field to add to the letter itself?  Dig into details of last update to record? @@  Look at data.
 
 ### Add field for language of letter
 
