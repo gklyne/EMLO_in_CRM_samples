@@ -2,9 +2,13 @@
 
 Graham Klyne <graham.klyne@oerc.ox.ac.uk>
 
+These notes: [https://github.com/gklyne/EMLO_in_CRM_samples/](https://github.com/gklyne/EMLO_in_CRM_samples/blob/master/EMLO_LD_CRM_Annalist/EMLO_LD_CRM_Annalist.md)
+
+See also: [http://annalist.net/](http://annalist.net/)
+
 ## Introduction
 
-Early Modern Letters Online is a database of correspondence that contains information about letters, who sent them, to whom they were sent, and much more.  It is currently built on conventional database technology.  I have been recently been looking at possible RDF linked data representations for these, and have done a little prototyping using my Annalist linked data notebook.  This hands-on session uses this work as a starting point.
+Early Modern Letters Online (EMLO) is a database of correspondence that contains information about letters, who sent them, to whom they were sent, and much more.  It is currently built on conventional database technology.  I have been recently been looking at possible RDF linked data representations for these, and have done a little prototyping using the Annalist linked data notebook.  This hands-on session uses this work as a starting point.
 
 This session proceeds in 3 phases:
 
@@ -14,23 +18,20 @@ This session proceeds in 3 phases:
 
 3. Add some details to the structures used to represent information about letters.  This should provide insight into how the CRM model can be realized in RDF.
 
-Taken together, my intent is that the session will help show how linked data and CRM can be used to capture the richness of information that is the subject of humanities studies, even if a session like this can only scratch the surface of that richness.
+Taken together, the intent is to show how linked data and CRM can be used to capture the richness of information that is the subject of humanities studies, even if the session can only scratch the surface of that richness.
 
-(I shall focus here on manual creation of data, but an implied possibility not explored here is that, with some modest coding effort, existing data can be converted automatically to linked data for exploration and combination with other datasets.)
-
-We shall use a web browser to interact with the Annalist system.  The intent is to keep this web server running for at least a year so you can come back to update and access your data later (but we make no guarantee of continuity of access or data integrity).  Data on the server may be downloaded as JSON - hopefully, by the end of this session, you will know how to access it.  If you want a copy of the entire collection data as a zip file or Tar archive, email me and I can arrange this (later versions of Annalist software should offer this option through the web interface).
+We shall use a web browser to interact with the Annalist system.  Our intent is to keep the `dhoxss.annalist.net` web server running for at least a year following the DHOxSS 2017 summer school, so you can come back to update and access your data later (but we cannot guarantee of continuity of access or data integrity).  Data on the server may be downloaded as JSON - hopefully, by the end of this session, you will know how to access it.  If you want a copy of the entire collection data as a zip file or Tar archive, email me and I can arrange this (later versions of Annalist software should offer this option through the web interface).
 
 
 ## Phase 1: getting started
 
-Annalist is an open-source system whose goal is to make it easier for individuals and small groups to create, manage and share linked data.  It is a work-in-progress: stable in use but with several desirable capabilities not yet implemented.  Annalist does not attempt to be a complete platform for ontology design, data analysis or data publishing; rather to create data that can be published through other platforms.  
+Annalist is an open-source system whose goal is to make it easier for individuals and small groups to create, manage and share linked data.  It is a work-in-progress: stable in use but with several desirable capabilities not yet implemented.  Annalist does not attempt to be a complete platform for ontology design, data analysis or data publishing; rather to create data that can be published and processed through other platforms.  
 
-The Annalist philosophy is _data first_: rather than designing an ontology or schema first, then creating data to fit that model, Annalist aims to start with data (and maybe an initial data model), and then to build linked data structures to record that data.  The "open world" nature of RDF linked data on the web is particularly well-suited to this approach ("missing isn't broken" - Dan Brickley).
+The Annalist philosophy is _data first_: rather than designing an ontology or schema, then creating data to fit that model, Annalist aims to start with data (and maybe an initial data model), and then to build linked data structures to record that data.  The "open world" nature of RDF linked data on the web is particularly well-suited to this approach ("missing isn't broken" - Dan Brickley).
 
 In its current form, Annalist focuses on manually entered data.  BUT, through shared access to common data in a simple textual format, it is possible for data to me mechanically inserted into an Annalist collection.
 
-In what follows, I'll demonstrate the operations I'm describing, but the intent is that you'll follow along and experiment for yourselves, and learn by doing.
-
+To get started, we need to log in, and create a new collection within Annalist...
 
 ### Login to Annalist
 
@@ -52,7 +53,9 @@ You will need a Google account for this.  If you don't already have one, you can
 
     (If the username field is left blank, Annalist will pick a username based on your Google account email address.)
 
-### Create new collection
+### Create new Annalist collection
+
+(An Annalist collection is an arbitrary aggregation of data records and associated structure definitions that is managed as a composite entity.)
 
 1. Click on the "Home" button.
 
@@ -88,13 +91,15 @@ Tell Annalist that the new collection should inherit definitions and data from t
 
 ### Set collection default view
 
+The collection now includes access to a lot mof new definitions, but starting from the initial view ("list everything") it is not so easy to navigate.  The parent collection contains a notes page that also includes some useful navigation links:  we shall make this the default view.
+
 1. From the "List entities with type information" view, select the "Scope all" checkbox, and click on "List".  A long list of entities is displayed (these are all the inherited definitions and data records).
 
 2. Look for an entry "EMLO_in_CRM_Notes" (towards the end of the list) and click on it.
 
     ![screenshot](images/dhoxss-annalist-select-EMLO_in_CRM.png)
 
-3. On the resulting display, click ""
+3. On the resulting display, click "Set default view"
 
     ![screenshot](images/dhoxss-annalist-EMLO_in_CRM_notes.png)
 
@@ -120,7 +125,7 @@ Now we can start to look at the data:
 
 4. In addition to information about the letter itself, there are links to activities of creation and transmission of the letter, which in turn link to descriptions of the people (Sir Isaac Newton and Dr David Gregory) involved respectively as author and recipient of the letter.
 
-5. Back on the "Letter view", click on the "Letter" link to see information about how a letter is modeled in terms of FRBRoo terms "F1_Work" and "F2_Expression", which themselves are subclasses of other CIDOC CRM terms.
+5. Back on the "Letter view", click on the type "Letter" link to see information about how a letter is modeled in terms of FRBRoo terms "F1_Work" and "F2_Expression", which themselves are subclasses of other CIDOC CRM terms.
 
 6. Finally, back on the "Letter view" page, click on the "Data" button to see the underlying stored data.  The data here is JSON-LD, which is a syntax for representing RDF based on JSON.  This form of data is relatively easy to read and process using (say) Python or Ruby, but can also be ingested in to an RDF data store to be processed as linked data (e.g. queried using SPARQL).
 
@@ -129,9 +134,9 @@ Now we can start to look at the data:
 
 In this phase, we look at how CIDOC CRM might be used to record information about Early Modern Letters, using information from the EMLO project.
 
-International Council of Museums (ICOM) Documentation Group (CIDOC) has over many years designed and defined  their Conceptual Reference Model (CIDOC CRM) for describing museum artifacts.  At it's heart is an "event-based" model that can be applied to a range of cultural and other kinds of information.  (The model has similarities with more recent work to describe provenance of online data, such as W3C PROV).    
+International Council of Museums (ICOM) Documentation Group (CIDOC) has over many years designed and defined their Conceptual Reference Model (CIDOC CRM) for describing museum artifacts.  At it's heart is an "event-based" model that can be applied to a range of cultural and other kinds of information.  (The model has similarities with more recent work to describe provenance of online data, notably W3C PROV).
 
-In this exercise, we will use pre-loaded CIDOC CRM definitions in Annalist to create a description of an Early Modern Letter recorded in EMLO.  We will describe a letter (artifact) that is linked to involved people (author, recipient) by activities (creation, transmission)
+In this exercise, we will use CIDOC CRM definitions pre-loaded in Annalist to create a description of an Early Modern Letter from EMLO.  We will describe a letter (artifact) that is linked to involved people (author, recipient) by activities (creation, transmission)
 
 
 ### Pick a letter from EMLO: open in new tab
@@ -182,7 +187,7 @@ In this exercise, we will use pre-loaded CIDOC CRM definitions in Annalist to cr
 
     ![screenshot](images/dhoxss-annalist-new-creation.png)
 
-    I propose this new activity be given an ID "creation_***", where "letter_***" is the Id of the letter whose creation is described.  In my example, this would be "created_949200".  Enter your chosen Id into the form.
+    I suggest this new activity be given an ID "creation_***", where "letter_***" is the Id of the letter whose creation is described.  In my example, this would be "created_949200".  Enter your chosen Id into the form.
 
     Fill in the label and comment fields with relevant details from the letter record, e.g.
 
@@ -225,14 +230,14 @@ A similar pattern can be followed to create a transmission activity record:
 
     ![screenshot](images/dhoxss-annalist-view-letter_949200-2.png)
 
-6. The stored JSON-LD for the various records can be viewed and downloaded by clicking on the "Data button.
+6. The stored JSON-LD for the various records can be viewed and downloaded by clicking on the "Data button.  Collected JSON for the collecton can be obtained by using the "Data" button from a
 
 
 ## Phase 3: extending Annalist definitions
 
 So far,we have been working with definitions that already exist in the Annalist system we are using.  Finally, we look at how the structure of Annalist linked data can be modified by new or updated definitions.
 
-We create definitions for describing additional aspects of a letter that are not currently covered.
+We create definitions for describing additional aspects of a letter that are not covered by the existing definitions.
 
 ### Add field for language of letter
 
@@ -280,7 +285,7 @@ The EMLO data contains information about and references to collections in which 
 
     ![screenshot](images/dhoxss-annalist-new-type-E78_Collection.png)
 
-    (The screenshot example here shows text copied from the CIDOC CRM documentation: for the purposes of this exercise, it is not necessary to copy all this test, and the comment field could be left blank for now.)
+    (The screenshot example here shows text copied from the CIDOC CRM documentation: for the purposes of this exercise, it is not necessary to copy all this text, and the comment field could be left blank for now.)
     
 2. Create View and List for E78_Collection
 
