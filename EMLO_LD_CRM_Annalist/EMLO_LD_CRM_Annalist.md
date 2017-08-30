@@ -20,7 +20,7 @@ This session proceeds in 3 phases:
 
 Taken together, the intent is to show how linked data and CRM can be used to capture the richness of information that is the subject of humanities studies, even if the session can only scratch the surface of that richness.
 
-We shall use a web browser to interact with the Annalist system.  Our intent is to keep the `dhoxss.annalist.net` web server running for at least a year following the DHOxSS 2017 summer school, so you can come back to update and access your data later (but we cannot guarantee of continuity of access or data integrity).  Data on the server may be downloaded as JSON - hopefully, by the end of this session, you will know how to access it.  If you want a copy of the entire collection data as a zip file or Tar archive, email me and I can arrange this (later versions of Annalist software should offer this option through the web interface).
+We shall use a web browser to interact with an Annalist system.  Our intent is to keep the `dhoxss.annalist.net` web server running for at least a year following the DHOxSS 2017 summer school, so you can come back to update and access your data later (but we cannot guarantee of continuity of access or data integrity).  Data on the server may be downloaded as JSON - hopefully, by the end of this session, you will know how to access it.  If you want a copy of the entire collection data as a zip file or Tar archive, email me and I can arrange this (later versions of Annalist software should offer this option through the web interface).
 
 
 ## Phase 1: getting started
