@@ -11,7 +11,7 @@
   ],
   "annal:default_type": "_type/Letter",
   "annal:default_view": "_view/Letter",
-  "annal:display_type": "List",
+  "annal:display_type": "_enum_list_type/List",
   "annal:id": "Letter",
   "annal:list_entity_selector": "'emlo:Letter' in [@type]",
   "annal:list_fields": [

@@ -11,7 +11,7 @@
   ],
   "annal:default_type": "_type/Relationship_type",
   "annal:default_view": "_view/Relationship_type",
-  "annal:display_type": "List",
+  "annal:display_type": "_enum_list_type/List",
   "annal:id": "Relationship_type",
   "annal:list_entity_selector": "'emlo:Relationship_type' in [@type]",
   "annal:list_fields": [

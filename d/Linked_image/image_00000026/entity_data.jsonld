@@ -7,14 +7,15 @@
   ],
   "@id": "Linked_image/image_00000026",
   "@type": [
-    "coll:Linked_image",
-    "coll:Included_image",
+    "resource:Linked_image",
+    "resource:Included_image",
     "annal:EntityData"
   ],
   "annal:id": "image_00000026",
-  "annal:type": "coll:Linked_image",
+  "annal:type": "resource:Linked_image",
   "annal:type_id": "Linked_image",
-  "coll:linked_image": "http://cofk2.bodleian.ox.ac.uk/culturesofknowledge/images/selden_end/MOO_N1/35372.png",
   "rdfs:comment": "# 4 Jan 1698: Newton, Isaac (Sir), to Gregory, David\r\n\r\nImage of Bodleian library card cataloguing the letter.\r\n\r\n## Document type: \r\n\r\nLetter\r\n\r\n## Details of letter: \r\n\r\n4 Jan 1698: Newton, Isaac (Sir), 1642-1727 (London, England) to Gregory, David, 1659-1708 Author as marked: Newton, Sir Isaac, 1642-1727\r\n\r\nYear: 1698\r\n\r\nShelfmark: MS Tanner 23 fol. 83\r\n\r\n## Repository: \r\n\r\nBodleian Library, University of Oxford\r\n\r\n## Location\r\n\r\n* City: Oxford\r\n* Country: England, United Kingdom\r\n\r\n## See also:\r\n\r\n* [EMLO entry for this image](http://emlo.bodleian.ox.ac.uk/profile/image/5d098bd0-ae5c-497e-90eb-a43fd88e74ed)\r\n",
-  "rdfs:label": "Card image: 4 Jan 1698: Newton, Isaac (Sir), to Gregory, David"
+  "rdfs:label": "Card image: 4 Jan 1698: Newton, Isaac (Sir), to Gregory, David",
+  "resource:included_image": "http://cofk2.bodleian.ox.ac.uk/culturesofknowledge/images/selden_end/MOO_N1/35372.png",
+  "resource:linked_image": "http://cofk2.bodleian.ox.ac.uk/culturesofknowledge/images/selden_end/MOO_N1/35372.png"
 }
